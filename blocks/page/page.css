@@ -1,0 +1,32 @@
+.page {
+    background: #2A2C2F;
+  min-height: 6875px;
+  min-width: 1280px;
+  color: #FFFFFF;
+  position: relative;
+
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  
+}
+@media screen and (max-width: 1024px) {
+  .page {
+    min-height: 6875px;
+    min-width: 1024px;
+      }
+}
+@media screen and (max-width: 768px) {
+  .page {
+    min-height: 6855px;
+  min-width: 768px;
+
+     }
+}
+@media screen and (max-width: 320px) {
+  .page {
+    min-height: 10023px;
+  min-width: 320px;
+    
+  }
+}

@@ -1,0 +1,25 @@
+.place__paragraph {
+   
+     display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+    max-width: 456px;
+  }
+  
+  @media screen and (max-width: 320px) {
+    .place__paragraph {
+      padding-top: 32px;
+      width: 100%;
+      padding-left: 16px;
+      padding-right: 16px;
+    
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .place__paragraph {
+      padding-top: 48px;
+    
+      padding-left: 16px;
+      max-width: 352px;
+    }
+  }

@@ -1,0 +1,24 @@
+.header {
+    min-width: 100%;
+    min-height: 52px;
+    display: flex;
+  }
+  @media screen and (max-width: 1024px) {
+    .header {
+      min-width: 88%;
+     
+  }
+  }
+  @media screen and (max-width: 768px) {
+    .header {
+      min-width: 61%;
+    
+  }
+  }
+  @media screen and (max-width: 320px) {
+    .header {
+      min-width: 288px;
+      min-height: 42px;
+     
+  }
+  }

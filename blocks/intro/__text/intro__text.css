@@ -1,0 +1,38 @@
+.intro__text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-right: 442px;
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: 40px;
+    height: 208px;
+    }
+    @media screen and (max-width: 1024px) {
+      .intro__text {
+       
+       min-width: 690px;
+       text-align: justify;
+         }
+    }
+      @media screen and (max-width: 768px) {
+        .intro__text {
+         
+          padding-top: 40px;
+     
+           }
+      }
+      @media screen and (max-width: 320px) {
+        .intro__text {
+        
+          padding-top: 40px;
+          padding-right: 0;
+       min-width: 288px;
+      height: 520px;
+          max-width: 288px;
+        }
+      }
